@@ -1,0 +1,71 @@
+mkdir = cria pasta 
+
+cd = entra
+
+cd .. = volta um
+
+cd ~ = volta p raiz do diretorio
+
+mv + nome atual +novo nome = renomear arquivo
+
+git mv arquivo1.txt nova_pasta/ = mover p um arquivo diferente 
+
+git rm arquivo1.txt = remove arquivos do diretorio
+
+dir = listar
+
+rm -d = apaga so o arquivo
+
+rm -r = apaga c/ arquivo dentro 
+
+rmdir = apaga 
+
+touch = criação de arquivos
+
+code = abre no vs code 
+==============================================================================
+rep local/remoto
+
+code . = abre o repositorio no vscode
+
+code + nome do arqv = abre apenas o arquivo no vs
+
+git init = 
+
+git add +nome do arqv 
+
+git add . = add tudo q 
+
+git status = ver 
+
+git commit -m "comentario aq " 
+
+git config --global user.email "ana.c.paula11@aluno.senai.br"
+
+git config --global user.name "ana"
+
+git log = ver os commits 
+
+git remote add origin https://github.com/anasant3s/projeto-grafico.git
+
+git remote = ver 
+
+git remote -v = ver o link 
+===============================================================================
+encaminhar do local p remoto 
+
+git push -u origin main = 
+
+git pull origin main
+
+git push -u origin master = logar 
+
+==============================================================================
+git branch -m master main = renomeia
+
+git branch = status
+
+$ git push -f origin master = forçar p arqv subir 
+
+
+
