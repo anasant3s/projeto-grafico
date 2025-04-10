@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+      <!-- action - recebe o endereço do arq/pag para onde os dados vão ser enviados -->
+      <!-- method - como os dados serão enviados  -->
+     <form action="#" method="post">
+        <!-- 1 formulario -->
+        <label for="name"> Nome</label>
+        <input type="text" name="name" id="name" placeholder="Nome e Sobrenome" maxlength="30" required autofocus>
+        <!-- maxlength é a qntd de caracteres do campo
+        required - é obrigatorio
+        autofocus - ao carregar a pág 
+        -->
+        <br><br>
+        <!-- Email -->
+        <label for="email">E-mail</label>
+        <input type="email" name="email" id="email" maxlength="50" placeholder="Seuemail@gmail.com" required autocomplete>
+        <!--autocomplete: qnd o user preenche o campo e envia o formulario, os dados
+        ficam salvos; assim, caso ele queira enviar o formulario novamente, não é necessário 
+        redigitar todos os dados-->
+        <br><br>
+
+        <label for="tel">Telefone</label>
+        <input type="tel" name="tel" id="tel"  maxlength="11" placeholder="(XX) XXXXX-XXXX" autocomplete="on">
+        <br><br>
+
+        <!-- curriculo -->
+        <label for="curriculum"></label>
+        <input type="file" name="curriculum" id="curriculum" >
+        <br><br>
+
+        <!--mensagem -->
+        <label for="message"></label>
+        <textarea style="resize: none;" name="message" id="message" rows="5" cols="20" maxlength="200" placeholder="Digite sua mensagem: "required></textarea>
+        </textarea>
+
+     </form>
+
+
+
+
+
+</body>
+</html>
